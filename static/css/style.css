@@ -30,11 +30,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(../../../code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css);
-@import url(css/tripsfonts.css);
-@import url(css/font-awesome.css);
-@import url(css/bootstrap-select.css);
-@import url(css/owl-carousel.css);
-@import url(css/prettyPhoto.css);
+@import url(./tripsfonts.css);
+@import url(./font-awesome.css);
+@import url(./bootstrap-select.css);
+@import url(./owl-carousel.css);
+@import url(./prettyPhoto.css);
 
 @font-face {
     font-family: 'aqua_grotesqueregular';

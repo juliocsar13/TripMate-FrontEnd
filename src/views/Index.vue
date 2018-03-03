@@ -7,10 +7,11 @@
         <search-section />
         <populars-section />
         <experiencies-section />
+
         <photos-section />
         <footer-app />
+        <copyright />
 
-        <copy-right />
     </div><!-- end wrapper -->
   </div>
 </template>
@@ -25,13 +26,13 @@
     import ExperienciesSection from "../components/index/ExperienciesSection.vue";
     import FooterApp from "../components/common/FooterApp.vue";
     import PhotosSection from "../components/index/PhotosSection.vue";
-    import CopyRight from "../components/common/Copyright.vue";
+    import Copyright from "../components/common/Copyright.vue";
 
     import scripts from "./utils/init";
 
     export default {
         name: 'index',
-        components: {
+        components:{
             Loader,
             Topbar,
             HeaderApp,
@@ -40,7 +41,7 @@
             ExperienciesSection,
             FooterApp,
             PhotosSection,
-            CopyRight
+            Copyright
         },
         mounted() {
             scripts.init();            
